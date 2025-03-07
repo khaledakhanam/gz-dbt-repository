@@ -17,3 +17,11 @@ renamed as (
 )
 
 select * from renamed
+name: product
+         identifier: raw_gz_product
+         description: produst of Greenweez
+         columns:
+           - name: products_id
+             description: Primary key
+           - name: purchase_price
+             description: the purchase price of the product
